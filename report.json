@@ -1,0 +1,54 @@
+[
+  {
+    "message_id": "email-1",
+    "sender": "service@netflix-security-check.click",
+    "extracted_links": [
+      "https://netflix-billing-check.click/login"
+    ],
+    "suspicious_links": [
+      "https://netflix-billing-check.click/login"
+    ],
+    "suspicious_keywords": [
+      "login",
+      "otp"
+    ],
+    "red_flags": [
+      "Link uses risky top-level domain '.click': https://netflix-billing-check.click/login",
+      "Possible impersonation: message references Netflix but sender domain is 'netflix-security-check.click'",
+      "Asks user to verify account via message link"
+    ],
+    "risk_score": 44,
+    "verdict": "SUSPICIOUS",
+    "explanation": "This message is unsafe because it contains suspicious or potentially deceptive links, it uses language commonly associated with phishing (urgency, credential, or payment prompts), multiple behavioral and technical red flags were detected. Do not click links or share sensitive information until independently verified."
+  },
+  {
+    "message_id": "email-2",
+    "sender": "alerts@bankexample.com",
+    "extracted_links": [
+      "https://bankexample.com/login"
+    ],
+    "suspicious_links": [],
+    "suspicious_keywords": [
+      "bank",
+      "invoice",
+      "login"
+    ],
+    "red_flags": [],
+    "risk_score": 12,
+    "verdict": "LOW RISK",
+    "explanation": "No strong phishing indicators were found. Continue using normal caution and verify sender identity before sharing sensitive data."
+  },
+  {
+    "message_id": "email-3",
+    "sender": "it-helpdesk@corp.local",
+    "extracted_links": [],
+    "suspicious_links": [],
+    "suspicious_keywords": [
+      "password"
+    ],
+    "red_flags": [],
+    "risk_score": 4,
+    "verdict": "LOW RISK",
+    "explanation": "No strong phishing indicators were found. Continue using normal caution and verify sender identity before sharing sensitive data."
+  }
+]

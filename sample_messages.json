@@ -1,0 +1,20 @@
+[
+  {
+    "id": "email-1",
+    "sender": "service@netflix-security-check.click",
+    "subject": "Immediate action needed",
+    "body": "Your Netflix billing failed. Verify account now at https://netflix-billing-check.click/login and provide OTP."
+  },
+  {
+    "id": "email-2",
+    "sender": "alerts@bankexample.com",
+    "subject": "Invoice available",
+    "body": "Your monthly statement is ready. Login at https://bankexample.com/login to download your invoice."
+  },
+  {
+    "id": "email-3",
+    "sender": "it-helpdesk@corp.local",
+    "subject": "Password reset notice",
+    "body": "Do not share your credentials. This is an awareness test email from your security team."
+  }
+]
